@@ -5,7 +5,7 @@
         <span class="font4 navGrey hd1">news<span  class="font4 blue">COVID</span></span>
       </div>
     </div>
-    <br><br><br><br>
+    <br><br><br>
     <div class="general">
       <div class="grid-container">
         <div class="color1 grid-item item1">
