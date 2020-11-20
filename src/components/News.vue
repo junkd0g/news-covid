@@ -2,25 +2,25 @@
   <div class="home">
     <div class="header">
       <div class="hd1">
-        <span class="font4 navGrey hd1">news<span  class="font4 blue">COVID</span></span>
+        <span class="font4 navGrey hd1">news<span  class="font4 blue">Covid</span></span>
       </div>
     </div>
     <br><br><br>
     <div class="general">
       <div class="grid-container">
-        <div class="color1 grid-item item1">
+        <div class="color1 grid-item item1 phop">
           <h5> <a v-bind:href="newsData.news.data[0].url" target="_blank"> {{ newsData.news.data[0].title }} </a> </h5>
           <h5><a v-bind:href="newsData.news.data[0].sourceURL" target="_blank"> {{ newsData.news.data[0].source }}</a> </h5>
         </div>
-        <div class="color1 grid-item item2">
+        <div class="color1 grid-item item2 phop">
           <h5> <a v-bind:href="newsData.news.data[1].url" target="_blank"> {{ newsData.news.data[1].title }} </a></h5>
           <h5> <a v-bind:href="newsData.news.data[1].sourceURL" target="_blank"> {{ newsData.news.data[1].source }}</a> </h5>
         </div>
-        <div class="color1 grid-item item3">
+        <div class="color1 grid-item item3 phop">
           <h5> <a v-bind:href="newsData.news.data[2].url" target="_blank"> {{ newsData.news.data[2].title }} </a></h5>
           <h5> <a v-bind:href="newsData.news.data[2].sourceURL" target="_blank"> {{ newsData.news.data[2].source }}</a> </h5>
         </div>
-        <div class="color1 grid-item item4">
+        <div class="color1 grid-item item4 phop">
           <h5> <a v-bind:href="newsData.news.data[3].url" target="_blank"> {{ newsData.news.data[3].title }} </a></h5>
           <h5> <a v-bind:href="newsData.news.data[3].sourceURL" target="_blank"> {{ newsData.news.data[3].source }}</a> </h5>
         </div>
@@ -420,6 +420,27 @@ a{
     background-color: #154561;
     transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   }
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 800px) {
+
+    .ggrid-container {
+      display: grid;
+        grid-template-areas: 'myArea';
+        grid-gap: 2px;
+    }
+    .grid-container {
+      display: block;
+    }
+    .phop{
+      border: 1px solid #181b1e;
+    }
+    .vt{
+      display: block;
+    }
+
 }
 
 </style>
