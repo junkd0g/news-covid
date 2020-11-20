@@ -379,4 +379,47 @@ a{
   height: 50px;
 }
 
+@media(hover: hover) and (pointer: fine) {
+  .item1:hover {
+    background-color: #154561;
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  .item2:hover {
+    background-color: #154561;
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  .item3:hover {
+    background-color: #154561;
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  .item4:hover {
+    background-color: #154561;
+    transform: scale(1.1);
+  }
+  .item5:hover {
+    background-color: #154561;
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  .gitem1:hover {
+    background-color: #154561;
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  .gitem2:hover {
+    background-color: #154561;
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  .gitem3:hover {
+    background-color: #154561;
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  .gitem4:hover {
+    background-color: #154561;
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  .gitem5:hover {
+    background-color: #154561;
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+}
+
 </style>
