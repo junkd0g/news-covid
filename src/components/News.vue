@@ -440,7 +440,11 @@ and (max-device-width : 800px) {
     .vt{
       display: block;
     }
-
+    .font4{
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+    }
 }
 
 </style>
